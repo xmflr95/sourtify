@@ -148,9 +148,6 @@ public class Sourtify {
     public static void main(String[] args) throws Exception {
         String keyword = "";
         String filePath = "";
-//        String keyword = "IBSheet7Wrapper";
-//        String keyword2 = "dhtmlXGridObject";
-//        String line;
         boolean start = false; // 메서드 생성 시작 여부
 
         // js file path
@@ -180,8 +177,6 @@ public class Sourtify {
         System.out.println(">>> SEARCH START >>>\n");
 
         String filename = filePath;
-//        String filename = "C:\\sourtify\\ibsheet7.js";
-//        String filename = "C:\\sourtify\\grid.js";
 
         // 실행 1. 객체 선언 메서드
 //        findObjectMethod(filename, keyword, functionList, writer);
